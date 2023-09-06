@@ -1,0 +1,96 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:fob_cost",
+ "creation": "2023-09-06 10:30:47.429389",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "fob_cost",
+  "cha_clearing_cost",
+  "surveyor_cost",
+  "administrative_cost",
+  "other_cost",
+  "linear_currency",
+  "craft_paper_rate_kg",
+  "silica_gel_rate_kg"
+ ],
+ "fields": [
+  {
+   "fieldname": "fob_cost",
+   "fieldtype": "Data",
+   "label": " FOB Cost",
+   "precision": "2",
+   "unique": 1
+  },
+  {
+   "fieldname": "cha_clearing_cost",
+   "fieldtype": "Float",
+   "label": "CHA Clearing cost",
+   "precision": "2"
+  },
+  {
+   "fieldname": "surveyor_cost",
+   "fieldtype": "Float",
+   "label": "Surveyor Cost",
+   "precision": "2"
+  },
+  {
+   "fieldname": "administrative_cost",
+   "fieldtype": "Float",
+   "label": "Administrative Cost",
+   "precision": "2"
+  },
+  {
+   "fieldname": "other_cost",
+   "fieldtype": "Float",
+   "label": "Other Cost",
+   "precision": "2"
+  },
+  {
+   "fieldname": "linear_currency",
+   "fieldtype": "Float",
+   "label": "Linear Currency %",
+   "precision": "2"
+  },
+  {
+   "fieldname": "craft_paper_rate_kg",
+   "fieldtype": "Float",
+   "label": "Craft Paper / Rate Kg",
+   "precision": "2"
+  },
+  {
+   "fieldname": "silica_gel_rate_kg",
+   "fieldtype": "Float",
+   "label": "Silica Gel Rate / Kg",
+   "precision": "2"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-06 10:30:47.429389",
+ "modified_by": "Administrator",
+ "module": "Qunatbit",
+ "name": "FOB Cost",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
