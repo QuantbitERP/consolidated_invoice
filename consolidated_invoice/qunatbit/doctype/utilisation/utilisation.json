@@ -1,0 +1,44 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-04 17:17:14.311096",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "usd",
+  "column_break_qbyfb",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "usd",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "USD",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_qbyfb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-04 17:17:14.311096",
+ "modified_by": "Administrator",
+ "module": "Qunatbit",
+ "name": "UTILISATION",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

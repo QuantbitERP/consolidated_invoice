@@ -1,0 +1,160 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-04 16:57:36.553616",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sales_order",
+  "column_break_veyry",
+  "amount",
+  "column_break_ppuu6",
+  "booking_date",
+  "column_break_jxy58",
+  "usd",
+  "column_break_1p3hp",
+  "net_rate",
+  "column_break_sbcto",
+  "total_amount",
+  "section_break_beemb",
+  "start_date",
+  "column_break_i7bwi",
+  "end_date",
+  "column_break_lgkxy",
+  "deal_id",
+  "column_break_yfp8q",
+  "bank_contract_no",
+  "section_break_thwdq",
+  "utilisation"
+ ],
+ "fields": [
+  {
+   "fieldname": "sales_order",
+   "fieldtype": "Link",
+   "label": "Sales Order",
+   "options": "Sales Order"
+  },
+  {
+   "fetch_from": "sales_order.rounded_total",
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "SO Amount",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_veyry",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ppuu6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "booking_date",
+   "fieldtype": "Date",
+   "label": "Booking Date"
+  },
+  {
+   "fieldname": "column_break_jxy58",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "usd",
+   "fieldtype": "Float",
+   "label": "USD",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_1p3hp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "net_rate",
+   "fieldtype": "Float",
+   "label": "Net Rate(INR/USD)",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_sbcto",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Float",
+   "label": "Total Amount (INR)",
+   "precision": "2"
+  },
+  {
+   "fieldname": "section_break_beemb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "column_break_i7bwi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "column_break_lgkxy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "deal_id",
+   "fieldtype": "Data",
+   "label": "Deal ID"
+  },
+  {
+   "fieldname": "column_break_yfp8q",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bank_contract_no",
+   "fieldtype": "Data",
+   "label": "Bank Contract No"
+  },
+  {
+   "fieldname": "section_break_thwdq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "utilisation",
+   "fieldtype": "Table",
+   "label": "UTILISATION",
+   "options": "UTILISATION"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-04 19:23:51.760907",
+ "modified_by": "Administrator",
+ "module": "Qunatbit",
+ "name": "Fed USD Booked",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
